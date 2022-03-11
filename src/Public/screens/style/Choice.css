@@ -2,25 +2,58 @@
     background: #4e54c8;
     height: 100%;
     min-height: 100vh;
-    width: 100%;
+    min-width: 100vw;
+    width:100%;
+
 
 }
 
 .navbar{
     height: fit-content;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: cornflowerblue;
 }
 
 .logo2{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
     background-color: whitesmoke;
     border: 2px solid cyan;
 
+}
+
+
+.name h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin : 0 !important;
+    line-height: 0.7;
+}
+
+.name h3{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    margin : 0 !important;
+
+}
+
+.bloc-log{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoID{
+    width: 90px;
+}
+
+.admin, .creation-login {
+    font-size: 12px;
+    text-align: center;
 }
