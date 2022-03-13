@@ -1,6 +1,8 @@
 import React from 'react'
 import './style/Choice.css'
 import icon from '../../Zassets/profil(1).png'
+import {Link} from "react-router-dom";
+
 
 const Choice = () => {
   return (
@@ -17,6 +19,12 @@ const Choice = () => {
                 <div className="creation-login">S'enregistrer</div>
             </div>
         </div>
+      <div className="LinkWrapper">
+
+        <Link to="/visiteurs">Visiteur</Link>
+        <Link to="/marchands">Marchand</Link>
+        <Link to="/admin">Administrateur</Link>
+      </div>
     </div>
   )
 }
