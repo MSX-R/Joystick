@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Exo:400,700");
 
-* {
-  margin: 0;
+:root {
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  height: auto;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  /* box-sizing: border-box; */
   font-family: "Exo", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #4e54c8;
+
+
 }
 
 a {
@@ -24,57 +24,23 @@ a {
   color: white;
 }
 
-p {
+p,
+li {
   color: white;
+  font-size: 12px;
+  list-style: none;
+
 }
 
-/* Color Theme Swatches in Hex */
-.Sonnen-Charger-1-hex {
-  color: #d94e5a;
+.bold {
+  font-weight: bold;
 }
-.Sonnen-Charger-2-hex {
-  color: #034aa6;
-}
-.Sonnen-Charger-3-hex {
-  color: #162c40;
-}
-.Sonnen-Charger-4-hex {
-  color: #05dbf2;
-}
-.Sonnen-Charger-5-hex {
-  color: #05f2f2;
-}
+/* COULEUR DU SITES 
 
-/* Color Theme Swatches in RGBA */
-.Sonnen-Charger-1-rgba {
-  color: rgba(216, 78, 89, 1);
-}
-.Sonnen-Charger-2-rgba {
-  color: rgba(3, 73, 165, 1);
-}
-.Sonnen-Charger-3-rgba {
-  color: rgba(21, 44, 63, 1);
-}
-.Sonnen-Charger-4-rgba {
-  color: rgba(4, 218, 242, 1);
-}
-.Sonnen-Charger-5-rgba {
-  color: rgba(4, 242, 242, 1);
-}
+Violet : #4E54C8
+Rouge : #FB3434
+Jaune : #FFA800
+Blanc : #FFFF
 
-/* Color Theme Swatches in HSLA */
-.Sonnen-Charger-1-hsla {
-  color: hsla(354, 64, 57, 1);
-}
-.Sonnen-Charger-2-hsla {
-  color: hsla(213, 96, 33, 1);
-}
-.Sonnen-Charger-3-hsla {
-  color: hsla(208, 49, 16, 1);
-}
-.Sonnen-Charger-4-hsla {
-  color: hsla(185, 96, 48, 1);
-}
-.Sonnen-Charger-5-hsla {
-  color: hsla(180, 96, 48, 1);
-}
+
+*/

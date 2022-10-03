@@ -1,0 +1,105 @@
+.Choice-page {
+  background: #4e54c8;
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
+}
+
+.navbar {
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+}
+
+.logo2 {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  border: 2px solid cyan;
+}
+
+.name h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+  margin: 0 !important;
+  line-height: 0.7;
+}
+
+.name h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+  margin: 5px !important;
+}
+
+.bloc-log {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoID {
+  width: 90px;
+}
+
+.admin,
+.creation-login {
+  font-size: 12px;
+  text-align: center;
+}
+
+/*INTRO DARK MODE*/
+
+.Bloc-Btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.switchMode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #333;
+  background-color: #f3f3f3;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  height: inherit;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.Choice-page.GoOrange {
+  background: orange;
+  color: black;
+}
+
+.navbar.GoOrange {
+  background-color: transparent;
+}
+
+.switchMode.GoPurple {
+  background: #9397e4;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.pika-icon {
+  width: 150%;
+  padding-top: 0px;
+}
+
+.spyro-icon {
+  width: 140%;
+  padding: 10px 10px 0 0px;
+  transform: scaleX(-1);
+}

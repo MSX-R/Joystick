@@ -1,0 +1,54 @@
+.PageReglement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  max-width: 100vw;
+  color: white;
+  border: 3px solid red;
+}
+
+.PageReglement h5 {
+  margin: 0;
+}
+
+.LogoDuoMoyen {
+  width: 15%;
+  min-width: 55px;
+}
+
+.IntroReglement {
+  justify-content: left;
+  width: 100%;
+  border: 1px solid red;
+  margin: 5% 0;
+}
+
+.IntroReglement > h4,
+.IntroReglement > p {
+  margin: 0;
+}
+
+.IntroReglement > p {
+  text-align: justify;
+}
+
+.hr {
+  margin: 30px;
+}
+
+.ContenuReglement {
+  text-align: justify;
+}
+
+.bouton{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin: 20px 0 ;
+background-color: #FFA800;
+color: white;
+font-weight: bold;
+/* border: none; */
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}

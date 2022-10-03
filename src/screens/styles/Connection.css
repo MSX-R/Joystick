@@ -1,0 +1,16 @@
+.PageConnection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconeLog {
+  width: 150px;
+}
+
+.LogPass{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    margin: 20px;
+}
